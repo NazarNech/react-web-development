@@ -54,11 +54,11 @@ export default class Header extends Component {
                 <Nav.Link href="/contacts"> Contacts </Nav.Link>
                 <Nav.Link href="/blog"> Blog </Nav.Link>
               </Nav>
-              <Form>
+              <Form className="d-flex">
                 <FormControl
                   type="text"
                   placeholder="Search"
-                  className="mr-sm-2"
+                  className="me-sm-3"
                 />
                 <Button variant="outline-info">Search</Button>
               </Form>
