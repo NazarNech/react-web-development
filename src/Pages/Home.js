@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Card, CardImg, Container, Button } from "react-bootstrap";
+import { Card, CardImg, Container, Button, NavLink } from "react-bootstrap";
+// import Developers from "./BlogPages/Developers";
 
 class Home extends Component {
   render() {
@@ -17,7 +18,9 @@ class Home extends Component {
                 <Card.Body>
                   <Card.Title>Developers</Card.Title>
                   <Card.Text>Team 1</Card.Text>
-                  <Button variant="primary">About team</Button>
+                  <Button variant="info">
+                    <NavLink href="./home/developers">About team</NavLink>
+                  </Button>
                 </Card.Body>
               </Card>
             </div>
@@ -31,7 +34,9 @@ class Home extends Component {
                 <Card.Body>
                   <Card.Title>QA Engineers</Card.Title>
                   <Card.Text>Team 2</Card.Text>
-                  <Button variant="primary">About team</Button>
+                  <Button variant="info">
+                    <NavLink href="./home/qa">About team</NavLink>
+                  </Button>
                 </Card.Body>
               </Card>
             </div>
@@ -45,7 +50,9 @@ class Home extends Component {
                 <Card.Body>
                   <Card.Title>Project Managers</Card.Title>
                   <Card.Text>Team 3</Card.Text>
-                  <Button variant="primary">About team</Button>
+                  <Button variant="info">
+                    <NavLink href="./home/pm">About team</NavLink>
+                  </Button>
                 </Card.Body>
               </Card>
             </div>
